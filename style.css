@@ -1,0 +1,185 @@
+*{
+    font-family: inter;
+    padding: 0;
+    margin: 0;
+}
+/* common button */
+.common-btn{
+    background-color: blue;
+    height: 56px;
+    width: 192px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.nav-parents{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+
+}
+    
+ .nav-logo img{
+    height: 44px;
+    width: 134px;
+ }
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    padding-top: 16px;
+    color: #575757;
+}
+
+.hero-section-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("assets/banner.jpg");
+    background-size: cover;
+    height: 871px;
+    color:white;
+}
+.hero-section-parent h2{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.hero-section-parent p{
+    text-align: center;
+    margin-bottom: 350px;
+}
+
+/* common box */
+.common-box{
+    border: 1px solid #E5E7EB ;
+    margin-bottom:30px ;
+    border-radius: 12px;
+}
+
+/* common radius */
+.common-radius{
+    border-radius:12px 12px 0 0;
+}
+.meet-the-speaker{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 50px;
+}
+.guest-section-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.guest-skill{
+    color: #2563EB;
+    font-size: small;
+}
+.common-box h2 {
+    margin: 25px;
+}
+.common-box p{
+    margin: 25px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pricing-end-alart{
+    text-align: center;
+    margin: 40px 0px;
+    margin-left: 10px;
+
+}
+.pricing h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.cmn-card {
+  width: 320px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+}
+.card-pro {
+    color: #ffffff;
+    background-color: #0D1B2A;
+    
+}
+
+.cmn-card ul li {
+  margin-bottom: 12px;
+  padding-left: 18px;
+  position: relative;
+  list-style: none;
+}
+
+.cmn-card ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+  font-size: 18px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+.get-pro-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.contact-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  color: #000000;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+.cmn-card p,h4{
+    color: #575757;
+    font-size: small;
+    margin: 7px 0px;
+}
+.card-pro h4{
+    color: #2563eb;
+}
+.cmn-card h2{
+    font-size: 40px;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-top: 1px solid #ccc;
+    opacity: 0.4;
+}
