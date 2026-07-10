@@ -266,3 +266,52 @@ hr{
   font-size: 13px;
   color: #6b7280;
 }
+
+.footer {
+    background: #0b0f19;
+    color: #ccc;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Row */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.footer-logo img {
+    height: 40px;
+}
+.footer-social{
+    display: flex;
+    height: 20px;
+    gap: 5px;
+    flex-direction: ;
+
+}
+.footer-social a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+
+
+/* Divider */
+.footer hr {
+    margin: 15px 0;
+    border: none;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Copyright */
+.footer-copy {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
