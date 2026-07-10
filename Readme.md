@@ -1,0 +1,1 @@
+i am making a developers conference web page i have some section like navbar, registration section, about guest section, pricing section i want to add more section so suggest me a section which one i add my web page and it must be html and css based 
